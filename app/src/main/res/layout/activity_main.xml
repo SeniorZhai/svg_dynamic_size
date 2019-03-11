@@ -13,26 +13,32 @@
             android:gravity="center"
             android:padding="16dp">
         <ImageView
+                android:scaleType="fitXY"
                 android:layout_margin="8dp"
                 android:id="@+id/icon1" android:layout_width="10dp" android:layout_height="10dp"
                 android:src="@drawable/ic_status_delivered"/>
         <ImageView
+                android:scaleType="fitXY"
                 android:layout_margin="8dp"
                 android:id="@+id/icon2" android:layout_width="10dp" android:layout_height="10dp"
                 android:src="@drawable/ic_status_delivered_white"/>
         <ImageView
+                android:scaleType="fitXY"
                 android:layout_margin="8dp"
                 android:id="@+id/icon3" android:layout_width="10dp" android:layout_height="10dp"
                 android:src="@drawable/ic_status_sending"/>
         <ImageView
+                android:scaleType="fitXY"
                 android:layout_margin="8dp"
                 android:id="@+id/icon4" android:layout_width="10dp" android:layout_height="10dp"
                 android:src="@drawable/ic_status_sending_white"/>
         <ImageView
+                android:scaleType="fitXY"
                 android:layout_margin="8dp"
                 android:id="@+id/icon5" android:layout_width="10dp" android:layout_height="10dp"
                 android:src="@drawable/ic_status_sent"/>
         <ImageView
+                android:scaleType="fitXY"
                 android:layout_margin="8dp"
                 android:id="@+id/icon6" android:layout_width="10dp" android:layout_height="10dp"
                 android:src="@drawable/ic_status_sent_white"/>
